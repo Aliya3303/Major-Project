@@ -76,12 +76,12 @@ Visit: http://localhost:8080
 ## 📁 Project Structure
 
 Major-Project/
-├── models/          # Mongoose schemas (User, Listing, Review)
-├── routes/          # Express route handlers
-├── views/           # EJS templates
-├── public/          # CSS, JS, images
-├── middleware/      # Authentication middleware
-├── app.js           # Main Express server
+├── models/         
+├── routes/          
+├── views/           
+├── public/          
+├── middleware/      
+├── app.js           
 ├── package.json
 └── README.md
 
