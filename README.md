@@ -43,34 +43,34 @@ Full-stack travel accommodation platform inspired by Airbnb, built using Node.js
 
 1. **Clone the repo**
 
-git clone https://github.com/Aliya3303/Major-Project.git
+    git clone https://github.com/Aliya3303/Major-Project.git
 
- cd Major-Project
+    cd Major-Project
 
 
 2. **Install dependencies**
 
- npm install
+    npm install
 
 
 3. **Setup environment** (copy `.env.example` to `.env`)
 
-DB_URL=your_mongodb_atlas_connection_string
+    DB_URL=your_mongodb_atlas_connection_string
 
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+    CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 
-CLOUDINARY_KEY=your_api_key
+    CLOUDINARY_KEY=your_api_key
 
-CLOUDINARY_SECRET=your_secret
+    CLOUDINARY_SECRET=your_secret
 
-SESSION_SECRET=your_random_secret_key
+    SESSION_SECRET=your_random_secret_key
 
 
 4. **Run locally**
 
- npm start
+    npm start
 
-Visit: http://localhost:8080
+    Visit: http://localhost:8080
 
 
 ## 📁 Project Structure
