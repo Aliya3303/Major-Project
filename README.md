@@ -45,42 +45,67 @@ Full-stack travel accommodation platform inspired by Airbnb, built using Node.js
 ---
 
 ## ⚙️ Installation & Setup
+## 🚀 Quick Start
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/Aliya3303/Major-Project
+1. **Clone the repo**
 
-2️⃣ Install dependencies
+git clone https://github.com/Aliya3303/Major-Project.git
+cd Major-Project
+
+
+2. **Install dependencies**
+
 npm install
 
-3️⃣ Start the server
+
+3. **Setup environment** (copy `.env.example` to `.env`)
+
+DB_URL=your_mongodb_atlas_connection_string
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+CLOUDINARY_KEY=your_api_key
+CLOUDINARY_SECRET=your_secret
+MAPBOX_TOKEN=your_mapbox_token
+SESSION_SECRET=your_random_secret_key
+
+
+4. **Run locally**
+
 npm start
+# Visit: http://localhost:8080
 
-http://localhost:8080
 
-📁 Project Structure
+## 📁 Project Structure
+
 
 Major-Project/
-├── models/
-├── routes/
-├── views/
-├── public/
-├── app.js
+├── models/          # Mongoose schemas (User, Listing, Review)
+├── routes/          # Express route handlers
+├── views/           # EJS templates
+├── public/          # CSS, JS, images
+├── middleware/      # Auth middleware
+├── app.js           # Main Express server
+├── package.json
 └── README.md
 
-🎯 Learning Outcomes
 
-Built a full-stack web application from scratch
+## 🔗 Live Deployment
 
-Implemented authentication and authorization
+**Note**: Free Render tier sleeps after 15min inactivity (wakes in 20-40s)
 
-Designed and worked with MongoDB relationships
+- 🌐 **Demo**: https://major-project-ufgl.onrender.com/listings
+- 📱 **Home**: https://major-project-ufgl.onrender.com
 
-Gained experience with deployment and environment setup
+## 🎯 Learning Outcomes
 
-👩‍💻 Author
+- Full-stack MERN development with authentication
+- MongoDB relationships (User → Listings → Reviews)
+- Secure file uploads and third-party API integration
+- Production deployment with environment variables
 
-Shaik Aliya
-GitHub: https://github.com/Aliya3303
+## 👩‍💻 Author
 
-LinkedIn: https://linkedin.com/in/shaik-aliya-b03b75359
+**Shaik Aliya**  
+💼 [LinkedIn](https://linkedin.com/in/shaik-aliya-b03b75359) | 🐙 [GitHub](https://github.com/Aliya3303)
+
+---
+⭐ **Star this repo if you found it helpful!**
