@@ -4,12 +4,6 @@ Full-stack travel accommodation platform inspired by Airbnb, built using Node.js
 
 ---
 
-## 🌐 Live Demo
-
-🔗 https://major-project-ufgl.onrender.com/listings
-
----
-
 ## ✨ Features
 
 - User authentication (Sign up, Login, Logout)
@@ -50,6 +44,7 @@ Full-stack travel accommodation platform inspired by Airbnb, built using Node.js
 1. **Clone the repo**
 
 git clone https://github.com/Aliya3303/Major-Project.git
+
 cd Major-Project
 
 
@@ -71,19 +66,20 @@ SESSION_SECRET=your_random_secret_key
 4. **Run locally**
 
 npm start
-# Visit: http://localhost:8080
+
+Visit: http://localhost:8080
 
 
 ## 📁 Project Structure
 
 
 Major-Project/
-├── models/          # Mongoose schemas (User, Listing, Review)
-├── routes/          # Express route handlers
-├── views/           # EJS templates
-├── public/          # CSS, JS, images
-├── middleware/      # Auth middleware
-├── app.js           # Main Express server
+├── models/          
+├── routes/         
+├── views/           
+├── public/         
+├── middleware/      
+├── app.js           
 ├── package.json
 └── README.md
 
@@ -93,7 +89,6 @@ Major-Project/
 **Note**: Free Render tier sleeps after 15min inactivity (wakes in 20-40s)
 
 - 🌐 **Demo**: https://major-project-ufgl.onrender.com/listings
-- 📱 **Home**: https://major-project-ufgl.onrender.com
 
 ## 🎯 Learning Outcomes
 
@@ -105,7 +100,8 @@ Major-Project/
 ## 👩‍💻 Author
 
 **Shaik Aliya**  
-💼 [LinkedIn](https://linkedin.com/in/shaik-aliya-b03b75359) | 🐙 [GitHub](https://github.com/Aliya3303)
+💼 [LinkedIn](https://linkedin.com/in/shaik-aliya-b03b75359) 
+🐙 [GitHub](https://github.com/Aliya3303)
 
 ---
 ⭐ **Star this repo if you found it helpful!**
