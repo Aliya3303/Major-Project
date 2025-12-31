@@ -122,13 +122,13 @@ Major-Project/
 ![Listings](Screenshots/listing.png)
 
 ### Create Listing
-![Create Listing](Screenshots/create new listing.png)
+![Create Listing](Screenshots/create_listing.png)
 
 ### Edit Listing
-![Edit Listing](Screenshots/edit your listing.png)
+![Edit Listing](Screenshots/edit_listing.png)
 
 ### View Listing
-![View Listing](Screenshots/view listing.png)
+![View Listing](Screenshots/view_listing.png)
 
 ### Reviews
 ![Reviews](Screenshots/reviews.png)
