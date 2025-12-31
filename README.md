@@ -75,16 +75,16 @@ Visit: http://localhost:8080
 
 ## 📁 Project Structure
 
-
 Major-Project/
-├── models/          
-├── routes/         
-├── views/           
-├── public/         
-├── middleware/      
-├── app.js           
+├── models/          # Mongoose schemas (User, Listing, Review)
+├── routes/          # Express route handlers
+├── views/           # EJS templates
+├── public/          # CSS, JS, images
+├── middleware/      # Authentication middleware
+├── app.js           # Main Express server
 ├── package.json
 └── README.md
+
 
 
 ## 🔗 Live Deployment
@@ -108,3 +108,27 @@ Major-Project/
 
 ---
 ⭐ **Star this repo if you found it helpful!**
+
+
+## 🖼️ Screenshots
+
+### Login Page
+![Login Page](Screenshots/login.png)
+
+### Sign Up Page
+![Sign Up Page](Screenshots/Signup.png)
+
+### Listings Page
+![Listings](Screenshots/listing.png)
+
+### Create Listing
+![Create Listing](Screenshots/create new listing.png)
+
+### Edit Listing
+![Edit Listing](Screenshots/edit your listing.png)
+
+### View Listing
+![View Listing](Screenshots/view listing.png)
+
+### Reviews
+![Reviews](Screenshots/reviews.png)
